@@ -1505,4 +1505,35 @@ body.dark-theme {
   .scrollup {
     right: 3rem;
   }
+  .experience {
+    padding: 2rem 0;
+ }
+ 
+ .experience__container {
+    display: grid;
+    gap: 2rem;
+ }
+ 
+ .experience__card {
+    background: #fff; /* Adjust as needed */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+ }
+ 
+ .experience__title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+ }
+ 
+ .experience__time {
+    font-size: 1rem;
+    color: #666; /* Adjust as needed */
+    margin-bottom: 1rem;
+ }
+ 
+ .experience__description {
+    font-size: 1rem;
+    color: #333; /* Adjust as needed */
+ }
 }
